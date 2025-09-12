@@ -1,0 +1,71 @@
+# GitHub Pages Configuration
+title: ICRA 2026 OntoAgentic Robotics Workshop
+description: Advancing OntoAgentic Robotics through Novel Design, Sensing, Actuation, and AI
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  proceedings:
+    output: true
+    permalink: /proceedings/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Include
+include:
+  - _pages
+
+# Site settings
+email: workshop@icra2026.org
+twitter_username: icra2026workshop
+github_username: icra2026workshop
+
+# Social media
+social:
+  - name: Twitter
+    icon: twitter
+    url: https://twitter.com/icra2026workshop
+  - name: GitHub
+    icon: github
+    url: https://github.com/icra2026workshop
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Proceedings
+    url: /proceedings.html
+  - title: Schedule
+    url: /schedule.html
+  - title: Invited Talks
+    url: /invited-talks.html
+  - title: Call for Contributions
+    url: /call-for-contributions.html

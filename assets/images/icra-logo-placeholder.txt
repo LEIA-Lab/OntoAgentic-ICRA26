@@ -1,0 +1,4 @@
+ICRA 2026 Vienna Logo Placeholder
+This file should be replaced with the actual ICRA 2026 Vienna logo image.
+Recommended size: 120x40 pixels for navigation, 80x40 pixels for footer
+Format: PNG with transparent background
