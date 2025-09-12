@@ -580,13 +580,30 @@ body {
     
     /* Mobile-specific image adjustments */
     .member-image img {
-        width: 150px !important;
-        height: 150px !important;
+        width: 200px !important;
+        height: 200px !important;
     }
     
     .advisory-member img {
-        width: 120px !important;
-        height: 120px !important;
+        width: 180px !important;
+        height: 180px !important;
+    }
+    
+    /* Make speaker image containers bigger on mobile */
+    .speaker-image {
+        flex: none;
+        min-width: 150px;
+        margin-bottom: 1rem;
+    }
+    
+    .speaker-image i {
+        font-size: 5rem !important;
+    }
+    
+    /* Make member image containers bigger on mobile */
+    .member-image {
+        min-width: 200px;
+        margin-bottom: 1rem;
     }
     
     /* Better text alignment for mobile */
@@ -684,13 +701,27 @@ body {
     
     /* Even smaller images for very small screens */
     .member-image img {
-        width: 120px !important;
-        height: 120px !important;
+        width: 180px !important;
+        height: 180px !important;
     }
     
     .advisory-member img {
-        width: 100px !important;
-        height: 100px !important;
+        width: 160px !important;
+        height: 160px !important;
+    }
+    
+    /* Speaker image adjustments for very small screens */
+    .speaker-image {
+        min-width: 130px;
+    }
+    
+    .speaker-image i {
+        font-size: 4.5rem !important;
+    }
+    
+    /* Member image adjustments for very small screens */
+    .member-image {
+        min-width: 180px;
     }
     
     /* Better spacing for very small screens */
@@ -2324,6 +2355,29 @@ body {
     
     .hero-container {
         padding: 0 5px;
+    }
+    
+    /* Image adjustments for extra small screens */
+    .member-image img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+    
+    .advisory-member img {
+        width: 140px !important;
+        height: 140px !important;
+    }
+    
+    .speaker-image {
+        min-width: 120px;
+    }
+    
+    .speaker-image i {
+        font-size: 4rem !important;
+    }
+    
+    .member-image {
+        min-width: 160px;
     }
 }
 
