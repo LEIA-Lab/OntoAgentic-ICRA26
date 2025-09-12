@@ -177,6 +177,8 @@ body {
     white-space: nowrap;
     color: #000000;
     text-align: center;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 .hero-title-sub {
@@ -520,12 +522,14 @@ body {
     }
     
     .hero-title-main {
-        font-size: 2rem;
+        font-size: 1.8rem;
         white-space: normal;
         line-height: 1.2;
         text-align: center;
         word-wrap: break-word;
         hyphens: auto;
+        max-width: 100%;
+        overflow-wrap: break-word;
     }
     
     .hero-title-sub {
@@ -626,12 +630,15 @@ body {
     }
     
     .hero-title-main {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         white-space: normal;
         line-height: 1.1;
         text-align: center;
         word-wrap: break-word;
         hyphens: auto;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        padding: 0 0.5rem;
     }
     
     .hero-title-sub {
@@ -2268,6 +2275,29 @@ body {
     
     .contact-item i {
         align-self: flex-start;
+    }
+}
+
+/* Extra small mobile devices (320px and below) */
+@media (max-width: 320px) {
+    .hero-title {
+        font-size: 1.2rem;
+        padding: 0 0.25rem;
+    }
+    
+    .hero-title-main {
+        font-size: 1.1rem;
+        line-height: 1.1;
+        padding: 0 0.25rem;
+    }
+    
+    .hero-title-sub {
+        font-size: 0.9rem;
+        padding: 0 0.25rem;
+    }
+    
+    .hero-container {
+        padding: 0 5px;
     }
 }
 
