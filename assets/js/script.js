@@ -50,6 +50,25 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// Topic expansion functionality
+function toggleTopic(button) {
+    const topicCard = button.closest('.topic-card');
+    const topicDetails = topicCard.querySelector('.topic-details');
+    const icon = button.querySelector('i');
+    
+    if (topicDetails.classList.contains('expanded')) {
+        topicDetails.classList.remove('expanded');
+        button.classList.remove('expanded');
+        icon.classList.remove('fa-chevron-up');
+        icon.classList.add('fa-chevron-down');
+    } else {
+        topicDetails.classList.add('expanded');
+        button.classList.add('expanded');
+        icon.classList.remove('fa-chevron-down');
+        icon.classList.add('fa-chevron-up');
+    }
+}
+
 // Animate elements on scroll
 const observerOptions = {
     threshold: 0.1,
