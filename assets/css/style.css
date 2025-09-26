@@ -265,9 +265,9 @@ body {
 }
 
 .topics h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #000000;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -279,7 +279,7 @@ body {
 
 .topic-card {
     background: white;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     text-align: center;
@@ -292,15 +292,16 @@ body {
 }
 
 .topic-card i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #ff6b35;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .topic-card h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #000000;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    line-height: 1.3;
 }
 
 .topic-card p {
@@ -333,15 +334,15 @@ body {
     }
     
     .topic-card {
-        padding: 1.5rem;
+        padding: 1rem;
     }
     
     .topic-card h3 {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     
     .topic-card i {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -351,15 +352,15 @@ body {
     }
     
     .topic-card {
-        padding: 1.25rem;
+        padding: 1rem;
     }
     
     .topic-card h3 {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     
     .topic-card i {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -618,6 +619,18 @@ body {
     
     .topics-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .topic-card {
+        padding: 1rem;
+    }
+    
+    .topic-card h3 {
+        font-size: 0.9rem;
+    }
+    
+    .topic-card i {
+        font-size: 1.5rem;
     }
     
     .speakers-grid {
