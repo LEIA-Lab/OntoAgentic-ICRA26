@@ -273,18 +273,17 @@ body {
 
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
 }
 
 .topic-card {
     background: white;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
 }
 
 .topic-card:hover {
@@ -293,72 +292,20 @@ body {
 }
 
 .topic-card i {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #ff6b35;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 .topic-card h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #000000;
-    margin-bottom: 0.8rem;
-    line-height: 1.3;
+    margin-bottom: 1rem;
 }
 
 .topic-card p {
     color: #000000;
     line-height: 1.6;
-}
-
-/* Expandable topic details */
-.topic-details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.topic-details.expanded {
-    max-height: 200px;
-}
-
-.topic-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-
-.topic-list li {
-    font-size: 0.85rem;
-    color: #666;
-    margin-bottom: 0.5rem;
-    padding-left: 1rem;
-    position: relative;
-}
-
-.topic-list li:before {
-    content: "•";
-    color: #ff6b35;
-    position: absolute;
-    left: 0;
-}
-
-.expand-btn {
-    background: none;
-    border: none;
-    color: #ff6b35;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    transition: transform 0.3s ease;
-}
-
-.expand-btn:hover {
-    transform: scale(1.1);
-}
-
-.expand-btn.expanded {
-    transform: rotate(180deg);
 }
 
 /* Speakers Section */
@@ -534,14 +481,6 @@ body {
     filter: brightness(0) invert(1);
 }
 
-/* Medium screens - 3 columns */
-@media (max-width: 1024px) {
-    .topics-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.2rem;
-    }
-}
-
 /* Force title wrapping on mobile devices */
 @media (max-width: 768px) {
     .hero-title-main {
@@ -623,8 +562,7 @@ body {
     }
     
     .topics-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
+        grid-template-columns: 1fr;
     }
     
     .speakers-grid {
@@ -791,10 +729,6 @@ body {
     .speaker-card,
     .topic-card {
         padding: 1.5rem;
-    }
-    
-    .topics-grid {
-        grid-template-columns: 1fr;
     }
     
     /* Adjust paper items for very small screens */
