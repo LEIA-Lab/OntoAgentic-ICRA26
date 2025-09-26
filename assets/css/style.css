@@ -629,7 +629,7 @@ body {
 .program-committee .member-affiliation {
     color: #000000;
     font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .program-committee .member-contact {
@@ -664,6 +664,32 @@ body {
     
     .program-committee .committee-member {
         padding: 1.2rem;
+    }
+}
+
+/* Organizing Committee specific styling - square images, slightly larger than program committee */
+.organizing-committee .member-image img {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 0;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments for organizing committee images */
+@media (max-width: 768px) {
+    .organizing-committee .member-image img {
+        width: 180px !important;
+        height: 180px !important;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .organizing-committee .member-image img {
+        width: 160px !important;
+        height: 160px !important;
+        border-radius: 0;
     }
 }
 
@@ -2288,7 +2314,7 @@ body {
 
 .member-affiliation {
     color: #000000;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     font-size: 1rem;
 }
 
