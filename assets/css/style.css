@@ -308,8 +308,6 @@ body {
     line-height: 1.6;
 }
 
-
-
 /* Responsive adjustments for topics grid - 6-5 layout */
 @media (max-width: 1400px) {
     .topics-grid {
@@ -619,7 +617,7 @@ body {
     }
     
     .topics-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .speakers-grid {
