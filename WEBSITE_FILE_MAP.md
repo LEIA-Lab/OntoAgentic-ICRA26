@@ -53,7 +53,7 @@ OntoAgentic-ICRA26/
 - Hero: "Toward Human-Level Robotic Teammates"
 - Topics: Cognitive architectures, neurosymbolic integration, planning, etc.
 - Speakers: Placeholder content (TBD)
-- Committee: Prof. Sergei Nirenburg, Prof. Luis Sentis, Dr. Sanjay Oruganti
+- Committee: Sergei Nirenburg, Luis Sentis, Sanjay Oruganti
 
 ### `404.html` - Error Page
 **Purpose**: Custom 404 error handling
@@ -107,9 +107,9 @@ OntoAgentic-ICRA26/
 - Contact information for all members
 
 **Committee Members**:
-- Prof. Sergei Nirenburg (RPI, HARMONIC Agents Inc.)
-- Prof. Luis Sentis (UT Austin, Apptronic, HARMONIC Agents Inc.)
-- Dr. Sanjay Oruganti (RPI, HARMONIC Agents Inc.)
+- Sergei Nirenburg (RPI, HARMONIC Agents Inc.)
+- Luis Sentis (UT Austin, Apptronic, HARMONIC Agents Inc.)
+- Sanjay Oruganti (RPI, HARMONIC Agents Inc.)
 
 ### `proceedings.html` - Workshop Proceedings
 **Purpose**: Accepted papers and presentations

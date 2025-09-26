@@ -231,36 +231,65 @@ body {
 
 /* Abstract Section */
 .abstract {
-    padding: 40px 0 0px 0;
+    padding: 20px 0 0px 0;
     background: #f8f9fa;
 }
 
 .abstract h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #000000;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
 .abstract-content {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background: white;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .abstract p {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: #000000;
+}
+
+/* About Section */
+.about {
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #000000;
     margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
     color: #000000;
 }
 
 /* Topics Section */
 .topics {
-    padding: 80px 0;
+    padding: 40px 0;
     background: #f8f9fa;
 }
 
@@ -273,7 +302,7 @@ body {
 
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
@@ -300,8 +329,32 @@ body {
 .topic-card h3 {
     font-size: 1rem;
     color: #000000;
-    margin-bottom: 0;
+    margin-bottom: 0.75rem;
     line-height: 1.3;
+}
+
+.topic-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.topic-card li {
+    color: #000000;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.topic-card li:before {
+    content: "•";
+    color: #ff6b35;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
 }
 
 .topic-card p {
@@ -309,28 +362,56 @@ body {
     line-height: 1.6;
 }
 
-/* Responsive adjustments for topics grid - 6-5 layout */
-@media (max-width: 1400px) {
-    .topics-grid {
-        grid-template-columns: repeat(5, 1fr);
-    }
+/* Topics More Button */
+.topics-more,
+.abstract-more {
+    text-align: center;
+    margin-top: 2rem;
 }
 
+.topics-more .btn-primary,
+.abstract-more .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: #ff6b35;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.topics-more .btn-primary:hover,
+.abstract-more .btn-primary:hover {
+    background: #e55a2b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.topics-more .btn-primary i,
+.abstract-more .btn-primary i {
+    font-size: 1rem;
+}
+
+/* Responsive adjustments for topics grid - 3-2 layout */
 @media (max-width: 1200px) {
-    .topics-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (max-width: 992px) {
     .topics-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .topics-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .topics-grid {
+        grid-template-columns: 1fr;
     }
     
     .topic-card {
@@ -343,6 +424,10 @@ body {
     
     .topic-card i {
         font-size: 1.5rem;
+    }
+    
+    .topic-card li {
+        font-size: 0.8rem;
     }
 }
 
@@ -361,6 +446,10 @@ body {
     
     .topic-card i {
         font-size: 1.25rem;
+    }
+    
+    .topic-card li {
+        font-size: 0.75rem;
     }
 }
 
@@ -420,29 +509,39 @@ body {
 
 /* Committee Section */
 .committee {
-    padding: 80px 0;
+    padding: 40px 0;
     background: #f8f9fa;
 }
 
 .committee h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #000000;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 .committee-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
 }
 
 .committee-member {
     background: white;
-    padding: 1.5rem;
-    border-radius: 10px;
+    padding: 1rem;
+    border-radius: 8px;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.committee-member:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
 .member-image i {
@@ -452,15 +551,120 @@ body {
 }
 
 .committee-member h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #000000;
     margin-bottom: 0.5rem;
 }
 
-.member-title {
-    color: #ff6b35;
+.member-designation {
+    color: #181818;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.member-contact {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+/* Specific styling for Minoru Asada card to reduce line gaps */
+.committee-member.asada-card .member-designation,
+.committee-member.asada-card .member-affiliation,
+.committee-member.asada-card .member-contact {
+    margin-bottom: 0.2rem;
+}
+
+.committee-member.asada-card .member-contact {
+    margin-top: 0.2rem;
+}
+
+/* Program Committee specific styling - larger blocks, 4 per row */
+.program-committee .committee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.program-committee .committee-member {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.program-committee .committee-member:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.program-committee .member-image img {
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 0;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.program-committee .committee-member h3 {
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.program-committee .member-designation {
+    color: #181818;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.program-committee .member-affiliation {
+    color: #000000;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.program-committee .member-contact {
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+/* Responsive adjustments for program committee */
+@media (max-width: 1200px) {
+    .program-committee .committee-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .program-committee .committee-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .program-committee .committee-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .program-committee .member-image img {
+        width: 160px !important;
+        height: 160px !important;
+        border-radius: 0;
+    }
+    
+    .program-committee .committee-member {
+        padding: 1.2rem;
+    }
 }
 
 .member-email {
@@ -631,6 +835,10 @@ body {
     
     .topic-card i {
         font-size: 1.5rem;
+    }
+    
+    .topic-card li {
+        font-size: 0.8rem;
     }
     
     .speakers-grid {
