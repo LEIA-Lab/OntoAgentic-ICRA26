@@ -76,7 +76,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .nav-link.active::after {
@@ -86,7 +86,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #ff6b35;
+    background: #21877C;
 }
 
 .hamburger {
@@ -322,7 +322,7 @@ body {
 
 .topic-card i {
     font-size: 2rem;
-    color: #ff6b35;
+    color: #21877C;
     margin-bottom: 0.75rem;
 }
 
@@ -351,7 +351,7 @@ body {
 
 .topic-card li:before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -375,20 +375,20 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: #ff6b35;
+    background: #21877C;
     color: white;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 500;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 4px 15px rgba(33, 135, 124, 0.3);
 }
 
 .topics-more .btn-primary:hover,
 .abstract-more .btn-primary:hover {
-    background: #e55a2b;
+    background: #1a6b60;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 6px 20px rgba(33, 135, 124, 0.4);
 }
 
 .topics-more .btn-primary i,
@@ -486,7 +486,7 @@ body {
 
 .speaker-image i {
     font-size: 4rem;
-    color: #ff6b35;
+    color: #21877C;
     margin-bottom: 1rem;
 }
 
@@ -497,7 +497,7 @@ body {
 }
 
 .speaker-title {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -546,7 +546,7 @@ body {
 
 .member-image i {
     font-size: 3rem;
-    color: #ff6b35;
+    color: #21877C;
     margin-bottom: 1rem;
 }
 
@@ -703,7 +703,7 @@ body {
     background: #1a1a1a;
     color: white;
     padding: 60px 0 20px;
-    border-top: 3px solid #ff6b35;
+    border-top: 3px solid #21877C;
 }
 
 .footer-content {
@@ -715,7 +715,7 @@ body {
 
 .footer-section h3 {
     margin-bottom: 1rem;
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .footer-section ul {
@@ -733,7 +733,7 @@ body {
 }
 
 .footer-section ul li a:hover {
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .footer-bottom {
@@ -1050,7 +1050,7 @@ body {
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8b5cf6 0%, #10b981 100%);
     color: white;
     padding: 120px 0 80px;
     text-align: center;
@@ -1085,13 +1085,13 @@ body {
 }
 
 .coming-soon-banner {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8b5cf6 0%, #10b981 100%);
     color: white;
     padding: 3rem 2rem;
     border-radius: 15px;
     text-align: center;
     margin: 2rem 0;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(33, 135, 124, 0.3);
 }
 
 .coming-soon-banner i {
@@ -1135,9 +1135,9 @@ body {
 
 .tab-btn {
     padding: 0.75rem 1.5rem;
-    border: 2px solid #ff6b35;
+    border: 2px solid #21877C;
     background: white;
-    color: #ff6b35;
+    color: #21877C;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -1146,7 +1146,7 @@ body {
 
 .tab-btn:hover,
 .tab-btn.active {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -1159,7 +1159,7 @@ body {
     padding: 2rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;
-    border-left: 4px solid #ff6b35;
+    border-left: 4px solid #21877C;
     transition: transform 0.3s ease;
 }
 
@@ -1184,7 +1184,7 @@ body {
 }
 
 .paper-type {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
@@ -1222,15 +1222,15 @@ body {
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     background: white;
-    color: #ff6b35;
+    color: #21877C;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #ff6b35;
+    border: 1px solid #21877C;
     transition: all 0.3s ease;
 }
 
 .paper-link:hover {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -1251,7 +1251,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: #ff6b35;
+    background: #21877C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -1291,13 +1291,13 @@ body {
     padding: 1.5rem;
     background: #f8f9fa;
     border-radius: 10px;
-    border-left: 4px solid #ff6b35;
+    border-left: 4px solid #21877C;
 }
 
 .timeline-time {
     flex: 0 0 150px;
     font-weight: 600;
-    color: #ff6b35;
+    color: #21877C;
     font-size: 1.1rem;
     margin-right: 1.5rem;
 }
@@ -1318,7 +1318,7 @@ body {
 }
 
 .timeline-speaker {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 500;
     font-style: italic;
 }
@@ -1341,7 +1341,7 @@ body {
 
 .paper-time {
     font-weight: 500;
-    color: #ff6b35;
+    color: #21877C;
     min-width: 100px;
 }
 
@@ -1376,7 +1376,7 @@ body {
 
 .schedule-notes li::before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     position: absolute;
     left: 0;
 }
@@ -1429,7 +1429,7 @@ body {
 
 .speaker-image i {
     font-size: 4rem;
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .speaker-info {
@@ -1443,7 +1443,7 @@ body {
 }
 
 .speaker-affiliation {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -1495,7 +1495,7 @@ body {
 }
 
 .panel-time {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -1550,7 +1550,7 @@ body {
 
 .resource-item i {
     font-size: 2.5rem;
-    color: #ff6b35;
+    color: #21877C;
     margin-bottom: 1rem;
 }
 
@@ -1565,7 +1565,7 @@ body {
 }
 
 .resource-link {
-    color: #ff6b35;
+    color: #21877C;
     text-decoration: none;
     font-weight: 500;
 }
@@ -1595,7 +1595,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: #ff6b35;
+    background: #21877C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -1651,7 +1651,7 @@ body {
 
 .workshop-format li::before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     position: absolute;
     left: 0;
 }
@@ -1678,7 +1678,7 @@ body {
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
-    border-left: 4px solid #ff6b35;
+    border-left: 4px solid #21877C;
 }
 
 .date-label {
@@ -1688,7 +1688,7 @@ body {
 }
 
 .date-value {
-    color: #ff6b35;
+    color: #21877C;
     font-size: 1.1rem;
     font-weight: 500;
 }
@@ -1724,7 +1724,7 @@ body {
 
 .type-card i {
     font-size: 3rem;
-    color: #ff6b35;
+    color: #21877C;
     margin-bottom: 1rem;
 }
 
@@ -1755,7 +1755,7 @@ body {
 
 .type-card li::before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     position: absolute;
     left: 0;
 }
@@ -1803,7 +1803,7 @@ body {
 
 .topic-category li::before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     position: absolute;
     left: 0;
 }
@@ -1849,7 +1849,7 @@ body {
 
 .guidelines-content li::before {
     content: "•";
-    color: #ff6b35;
+    color: #21877C;
     position: absolute;
     left: 0;
 }
@@ -1891,7 +1891,7 @@ body {
 }
 
 .submit-btn.primary {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -1901,12 +1901,12 @@ body {
 
 .submit-btn.secondary {
     background: white;
-    color: #ff6b35;
-    border: 2px solid #ff6b35;
+    color: #21877C;
+    border: 2px solid #21877C;
 }
 
 .submit-btn.secondary:hover {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -1990,7 +1990,7 @@ body {
 /* 404 Page Styles */
 .error-page {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8b5cf6 0%, #10b981 100%);
     color: white;
     text-align: center;
     min-height: 70vh;
@@ -2052,7 +2052,7 @@ body {
 
 .btn-primary {
     background: white;
-    color: #667eea;
+    color: #21877C;
 }
 
 .btn-primary:hover {
@@ -2068,7 +2068,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #667eea;
+    color: #21877C;
     transform: translateY(-2px);
 }
 
@@ -2083,7 +2083,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 2rem;
-    background: #ff6b35;
+    background: #21877C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -2140,7 +2140,7 @@ body {
 
 .speaker-image i {
     font-size: 4rem;
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .speaker-info {
@@ -2154,7 +2154,7 @@ body {
 }
 
 .speaker-affiliation {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 600;
     margin-bottom: 1rem;
     font-size: 1.1rem;
@@ -2206,16 +2206,16 @@ body {
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     background: white;
-    color: #ff6b35;
+    color: #21877C;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #ff6b35;
+    border: 1px solid #21877C;
     transition: all 0.3s ease;
     font-size: 0.9rem;
 }
 
 .speaker-link:hover {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -2243,7 +2243,7 @@ body {
 }
 
 .talk-info .talk-time {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 500;
     font-size: 0.9rem;
 }
@@ -2292,7 +2292,7 @@ body {
 
 .member-image i {
     font-size: 4rem;
-    color: #ff6b35;
+    color: #21877C;
 }
 
 .member-info {
@@ -2306,7 +2306,7 @@ body {
 }
 
 .member-title {
-    color: #ff6b35;
+    color: #21877C;
     font-weight: 600;
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
@@ -2336,16 +2336,16 @@ body {
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     background: white;
-    color: #ff6b35;
+    color: #21877C;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #ff6b35;
+    border: 1px solid #21877C;
     transition: all 0.3s ease;
     font-size: 0.9rem;
 }
 
 .member-link:hover {
-    background: #ff6b35;
+    background: #21877C;
     color: white;
 }
 
@@ -2401,7 +2401,7 @@ body {
 
 .contact-item i {
     font-size: 2rem;
-    color: #ff6b35;
+    color: #21877C;
     flex: 0 0 50px;
 }
 

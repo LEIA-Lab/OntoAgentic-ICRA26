@@ -7,6 +7,108 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .journal-publication-box {
+            max-width: 1200px;
+            margin: 1.5rem auto 2.5rem;
+            background: #D4E4F4;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+        
+        .journal-cover-link {
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        
+        .journal-cover-img {
+            max-width: 180px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .journal-cover-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .journal-publication-content {
+            flex: 1;
+        }
+        
+        .journal-publication-text {
+            font-size: 1.1rem !important;
+            line-height: 1.5 !important;
+            margin: 0 0 0.5rem 0;
+            color: #333;
+        }
+        
+        .journal-publication-text strong {
+            color: #21877C;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .journal-issn {
+            font-size: 0.8rem !important;
+            color: #666;
+            margin: 0 0 1rem 0;
+            line-height: 1.4 !important;
+        }
+        
+        .journal-description {
+            font-size: 0.85rem !important;
+            color: #555;
+            margin: 0 0 2rem 0;
+            line-height: 1.5 !important;
+        }
+        
+        .journal-buttons {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        
+        .journal-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.25rem;
+            background: #21877C;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(33, 135, 124, 0.3);
+        }
+        
+        .journal-btn:hover {
+            background: #1a6b60;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(33, 135, 124, 0.4);
+        }
+        
+        @media (max-width: 640px) {
+            .journal-publication-box {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .journal-cover-link {
+                margin-bottom: 0.75rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -78,7 +180,29 @@
     <!-- Abstract Section -->
     <section class="abstract">
         <div class="container">
+            <!-- Journal Publication Section -->
+            <div class="journal-publication-box">
+                <a href="https://www.worldscientific.com/worldscinet/ijhr" target="_blank" rel="noopener noreferrer" class="journal-cover-link">
+                    <img src="assets/images/JournalCover.jpg" alt="International Journal of Humanoid Robotics" class="journal-cover-img">
+                </a>
+                <div class="journal-publication-content">
+                    <p class="journal-publication-text">
+                        All accepted papers presented at the workshop will be published in a special issue of the <strong>International Journal of Humanoid Robotics</strong>.
+                    </p>
+                    <p class="journal-issn">
+                        World Scientific, ISSN (print): 0219-8436 | eISSN (online): 1793-6942
+                    </p>
+                    <p class="journal-description">
+                        The International Journal of Humanoid Robotics (IJHR), published by World Scientific Publishing Co. Pte Ltd, is a peer-reviewed journal established in 2004 that focuses on both the physical (motion, structure, mechanics) and mental (perception, cognition, control) aspects of humanoid and biologically-inspired robots.
+                    </p>
+                    <div class="journal-buttons">
+                        <a href="call-for-contributions.html" class="journal-btn">Call for Contributions</a>
+                    </div>
+                </div>
+            </div>
+            
             <h2>Abstract</h2>
+            
             <div class="abstract-content">
                 <p>The emergence of agentic AI and the growing influence of neurosymbolic AI make it incumbent on the robotics community to assess their impact on integrating intentionality and reasoning with embodiment and perception. While advances in machine learning-based, data-driven approaches have expanded the capabilities of robots in perception and control, cognitive modeling relying on symbolic knowledge, commonsense reasoning and ontologically-grounded perception interpretation is widely considered as the necessary complement to the empirical approaches for developing robust, intentional, reflective, trustworthy, explainable, and socially aware robots with whom their human teammates are able to interact as they would with other humans.</p>
                 
